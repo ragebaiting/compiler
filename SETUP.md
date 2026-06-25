@@ -18,7 +18,7 @@ needs:
 that's the whole list. everything else is already set up.
 
 
-## install llvm (the only missing thing)
+## install llvm 
 
 open powershell and run:
 
