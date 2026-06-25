@@ -1,0 +1,12 @@
+{
+  "name": "tsllvm",
+  "module": "src/index.ts",
+  "type": "module",
+  "bin": { "tsllvm": "src/index.ts" },
+  "scripts": {
+    "build": "echo 'no build step; run via bun'",
+    "test": "bun test",
+    "tsllvm": "bun run src/index.ts"
+  },
+  "devDependencies": { "@types/bun": "latest" }
+}

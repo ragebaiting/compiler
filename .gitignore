@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+.bun/
+
+# Compiler output / build artifacts
+*.ll
+*.exe
+*.o
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+out/
+dist/
+build/
+
+# Logs
+*.log
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local tooling (Claude Code session data, remember-skill history)
+.claude/
+.remember/
